@@ -10,7 +10,12 @@
 \usepackage[UKenglish]{isodate}
 \usepackage{hyperref}
 \usepackage{parskip}
+\usepackage{xspace}
 \usepackage{color}
+
+% Add a macro to typeset C++ nicely.
+% From: https://tex.stackexchange.com/q/4302/156587
+\def\cpp{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}\xspace}
 
 % \renewcommand{\abstractname}{Executive Summary}
 
@@ -55,6 +60,8 @@ Vivamus blandit sed dolor ut lacinia. Etiam nec enim metus. Duis blandit mauris 
   Robert Haines & 14th November 2017 & Initial revision \\
   \hline
   Robert Haines & 2nd December 2017 & Add this revision table \\
+  \hline
+  Robert Haines & 2nd April 2018 & Add \cpp macro \\
   \hline
 \end{tabularx}
 
