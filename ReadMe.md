@@ -11,7 +11,7 @@ Download [report.tex](https://raw.githubusercontent.com/hainesr/report_template/
 
 ### Notes and macros
 
-**Abstract name**
+#### Abstract name
 
 If you want to use a different name for the abstract section, such as 'Executive summary', use the following template:
 
@@ -19,11 +19,11 @@ If you want to use a different name for the abstract section, such as 'Executive
 \renewcommand{\abstractname}{Executive summary}
 ```
 
-**`\cpp`**
+#### `\cpp`
 
 Renders C++ nicely. Using this macro looks much better than just typing C++ into your document.
 
-**`\notetoself`**
+#### `\notetoself`
 
 Renders text in red and uppercase for use as a mnemonic within a document.
 
