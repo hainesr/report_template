@@ -21,7 +21,7 @@ If you want to use a different name for the abstract section, such as 'Executive
 
 #### `\cpp`
 
-Renders C++ nicely. Using this macro looks much better than just typing C++ into your document.
+Renders 'C++' nicely. Using this macro looks much better than just typing 'C++' into your document.
 
 #### `\notetoself`
 
