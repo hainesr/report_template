@@ -9,7 +9,15 @@ A LaTeX report template with all the boilerplate I need to get a new document st
 
 Download [report.tex](https://raw.githubusercontent.com/hainesr/report_template/master/report.tex), rename as required, edit, build.
 
-### Macros
+### Notes and macros
+
+**Abstract name**
+
+If you want to use a different name for the abstract section, such as 'Executive summary', use the following template:
+
+```latex
+\renewcommand{\abstractname}{Executive summary}
+```
 
 **`\cpp`**
 
