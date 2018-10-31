@@ -9,6 +9,10 @@ A LaTeX report template with all the boilerplate I need to get a new document st
 
 Download [report.tex](https://raw.githubusercontent.com/hainesr/report_template/master/report.tex), rename as required, edit, build.
 
+```shell
+$ wget https://raw.githubusercontent.com/hainesr/report_template/master/report.tex
+```
+
 ### Notes and macros
 
 #### Abstract name
