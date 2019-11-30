@@ -10,6 +10,7 @@
 \usepackage[UKenglish]{isodate}
 \usepackage{hyperref}
 \usepackage{parskip}
+\usepackage{authblk}
 \usepackage{xspace}
 \usepackage{color}
 
@@ -25,7 +26,10 @@
 
 \title{A {\LaTeX} Report Template}
 \author{Robert Haines, Research IT, University of Manchester, UK}
-%\author{Robert Haines\thanks{University of Manchester, UK} \and A. N. Other\thanks{University of Elsewhere, USA}}
+%\author[1]{Robert Haines}
+%\author[2]{A. N. Other}
+%\affil[1]{Research IT, University of Manchester, UK}
+%\affil[2]{University of Elsewhere, USA}
 \date{\today}
 \maketitle
 
@@ -62,6 +66,8 @@ Vivamus blandit sed dolor ut lacinia. Etiam nec enim metus. Duis blandit mauris 
   Robert Haines & 2nd December 2017 & Add this revision table \\
   \hline
   Robert Haines & 2nd April 2018 & Add \cpp macro \\
+  \hline
+  Robert Haines & 30th November 2019 & Improve multi-author affiliations (\texttt{authblk}) \\
   \hline
 \end{tabularx}
 
